@@ -10,7 +10,7 @@ const router=jsonServer.router('db.json')
 const middilware=jsonServer.defaults()
 
 //5. setup port for db.json
-const port=8001
+const port=8002
 
 //6. use in server
 restServer.use(middilware)
